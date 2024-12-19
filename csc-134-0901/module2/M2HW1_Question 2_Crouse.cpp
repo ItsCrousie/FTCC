@@ -5,14 +5,14 @@ using namespace std;
 
 /*
 CSC-134-1901
-M2LAB1 - Profit Boxes
+M2HW1 Question 2 - Profit Boxes (Altered)
 Brian Crouse
 28AUG2024
 */
 
 int main() {
-  const double COST_PER_CUBIC_FOOT = 0.23;
-  const double charge_PER_CUBIC_FOOT = 0.5;
+  const double COST_PER_CUBIC_FOOT = 0.3;
+  const double charge_PER_CUBIC_FOOT = 0.52;
   double l, w, h, volume, cost, charge, profit;
 
   //Prompt user for input
@@ -31,7 +31,7 @@ int main() {
 
 
   //Display
-    //Round for Currency
+    //Round for Currency - I already did this in the main lab... because it makes sense.
   cout << fixed << setprecision(2);
   cout << "Your intended volume is: " << volume << endl;
   cout << "Cost to build: $" << cost << endl;
